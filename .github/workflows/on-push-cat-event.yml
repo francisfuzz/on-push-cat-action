@@ -6,6 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest    
     steps:
-    - name: concatenate the contents of $GITHUB_ACTION
+    - name: echo this variable: $GITHUB_ACTION
       run: |
-        cat $GITHUB_ACTION
+        echo $GITHUB_ACTION
