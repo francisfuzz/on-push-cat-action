@@ -1,2 +1,3 @@
-# on-push-cat-event
-On a push to any branch, log the contents of $GITHUB_EVENT_PATH
+# on-push-printenv
+
+On a push to any branch, list all environment variables using the `printenv` command.
