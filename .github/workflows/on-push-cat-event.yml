@@ -1,4 +1,4 @@
-name: on-push-cat-event
+name: on-push-printenv
 
 on: [push]
 
@@ -6,6 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest    
     steps:
-    - name: echo this variable: $GITHUB_ACTION
+    - name: printenv
       run: |
-        echo $GITHUB_ACTION
+        printenv
